@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("assets/font/fonts/Vazir-Regular-FD.woff2") format("woff2"),
+    url("assets/font/fonts/Vazir-Regular-FD.woff") format("woff");
+}
+#img {
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+}
+body{
+    background-image: url("../files/double-bubble-outline.png");
+}
+
+#bio {
+    text-align: center;
+}
+
+*, html, body {
+    direction: rtl;
+    font-family: Vazir,tahama,Arial;
+
+}
+
+.icon-font {
+    font-size: 2rem !important;
+}
+
+.box {
+    background: #eeeeee;
+    box-shadow: 0 0 15px #2fac80;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box2 {
+    background: #eeeeee;
+    box-shadow: 0 0 15px #2fac80;
+    border-radius: 5px;
+}
+#img>img{
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #2fac80;
+}
