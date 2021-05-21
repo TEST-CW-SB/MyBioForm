@@ -29,7 +29,4 @@ if (isset($_POST['name']) and isset($_POST['email'])and isset($_POST['subject'])
     $_SESSION['msg_comment'] = 'دیدگاه با موفقیت ذخیره شد.';
     header('Location: Index.php');
 
-}elseif ($_POST['name']==null ||$_POST['email']==null || $_POST['name']==null || $_POST['name']==null || $_POST['name']==null){
-    $_SESSION['Err_msg_comment'] = 'خطادر ثبت نظر شما!/n لطفا ورودی های خود را چک کنید!';
-    header('Location: Index.php');
 }

@@ -102,12 +102,6 @@ session_start();//estefade az session be manzor etela az etefagh oftadan ersal c
                         </div>
                         <?php
                         unset($_SESSION['msg_comment']);
-                    }elseif(isset($_SESSION['Err_msg_comment'])){
-                    ?>
-                        <div class="alert alert-warning" role="alert">
-                            <?= $_SESSION['Err_msg_comment'] ?>
-                        </div>
-                    <?php
                     }
                     ?>
         </div>
